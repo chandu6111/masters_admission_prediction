@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Predict your admission chances</title>
+        <link rel="stylesheet" href="static\style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center><h1 id="nav_"><b>Masters Admission Prediction</b></h1></center>
+        <div id="div_tag">
+            <h1 id="heading">Confused? Predict now!</h1>
+        <form name="myform" action="/predict" method="post" onsubmit="return(validateform());">
+            <input type="text" class="form_data" name="GRE Score" placeholder="GRE Score" required="required" /><br><br>
+            <input type="text" class="form_data" name="TOEFL Score" placeholder="TOEFL Score" required="required" /><br><br>
+            <input type="text" class="form_data" name="University Rating" placeholder="University Rating" required="required" /><br><br>
+            <input type="text" class="form_data" name="SOP" placeholder="SOP" required="required" /><br><br>
+            <input type="text" class="form_data" name="LOR" placeholder="LOR" required="required" /><br><br>
+            <input type="text" class="form_data" name="CGPA" placeholder="CGPA" required="required" /><br><br>
+            <input type="text" class="form_data" name="Research" placeholder="Research" required="required" /><br><br>
+            <button id="btn" type="submit" >Predict</button>
+
+        </form>
+        <div>
+            <b><p id="res">Predicted chances of your admission into Masters is</p><p>{{prediction_text}}<br></p></b>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+
+    </body>
+</html>
