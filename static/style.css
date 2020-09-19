@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#heading{
+    color:yellow;
+    font-family: 'Source Serif Pro', serif;
+
+}
+body{
+    background-image: url("https://www.thoughtco.com/thmb/aRwtV75jwNGbI6V6tNnimBT-JD4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/173253837-56a18f0c5f9b58b7d0c0a855.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(0.5px);
+    height: 100%;
+    background-position:center;
+}
+#nav_{
+    background:rgba(255,105,180,0.5);
+    color:white;
+    line-height: 100px;
+    font-family: 'Source Serif Pro', serif;
+
+}
+#div_tag{
+    padding-left:750px;
+}
+::placeholder{
+    color:purple;
+}
+.form_data{
+    background-color:pink;
+    border: 2px solid yellow;
+    border-radius:10px;
+    line-height: 30px;
+    padding-left:10px
+}
+.form_data:hover{
+background:sky-blue;
+}
+#btn{
+    border-radius:30px;
+    line-height:20px;
+    color:rgb(194, 5, 5);
+    border:3px solid yellow;
+    background:#ff6;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#btn:hover{
+    background:pink;
+}
+#res{
+    color:white;
+
+}
