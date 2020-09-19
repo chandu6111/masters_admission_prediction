@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>output page</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+<body>
+<div id="uni">
+            {% if prediction_text %}
+            <center>
+            <b><p id="res">Predicted chances of your admission into Masters is</p></b>
+                <h1 id="out">{{prediction_text}}%<br></h1>
+            </center>
+            {% endif %}
+</div>
+</body>
+</html>
