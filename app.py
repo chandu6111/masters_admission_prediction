@@ -35,7 +35,7 @@ def predict():
         prediction=lr_model.predict([final_features])
         output=round(prediction[0],2)
         output=output*100;
-    return render_template('index.html',prediction_text=output)
+    return render_template('out.html',prediction_text=output)
 
 
 if __name__ == "__main__":
